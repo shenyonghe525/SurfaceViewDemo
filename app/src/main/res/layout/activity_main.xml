@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.syh.yongheshen.surfaceviewdemo.SurfaceViewLuckPan
+        android:id="@+id/pan_sf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:layout_centerInParent="true"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/start"
+        android:background="#00000000"
+        android:layout_centerInParent="true" />
+</RelativeLayout>
